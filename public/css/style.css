@@ -1,0 +1,17 @@
+.navbar{
+  background-color: black;
+}
+
+.navbar a{
+    color: #bcbfc4 !important;
+    font-size: 20px;
+    font-family: verdana;
+    margin: 10px;
+}
+.navbar-nav{
+  float:right;
+}
+.active a{
+  color:#0f377a !important;
+  background: none;
+}
