@@ -20,11 +20,50 @@
 
 #about-page{
   background : url("../img/about_us_background.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#home{
+  background:url("../img/home.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2{
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+span{
+  color:#5F021F;
+}
+
+.home_page{
+  text-align: center;
 }
 
 .about{
   font-weight: bold;
-  font-size: 10px;
+  font-size: 20px;
   font-family: verdana;
-  
+
+}
+
+.button_delivery{
+  background-color: #883e52;
+  border:none;
+  color:white;
+  padding:30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:4px 2px;
+  border-radius: 8px;
 }
