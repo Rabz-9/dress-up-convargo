@@ -34,6 +34,14 @@
   background-size: cover;
 }
 
+#delivery_page{
+  background: url("../img/delivery_background.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 h2{
   font-family: verdana;
   font-weight: bold;
