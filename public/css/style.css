@@ -2,10 +2,12 @@
   background-color: black;
 }
 
+
 .navbar a{
     color: #bcbfc4 !important;
     font-size: 20px;
     font-family: verdana;
+    font-weight: bold;
     margin: 10px;
 }
 .navbar-nav{
@@ -14,4 +16,15 @@
 .active a{
   color:#0f377a !important;
   background: none;
+}
+
+#about-page{
+  background : url("../img/about_us_background.jpg");
+}
+
+.about{
+  font-weight: bold;
+  font-size: 10px;
+  font-family: verdana;
+  
 }
