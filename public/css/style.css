@@ -14,7 +14,7 @@
   float:right;
 }
 .active a{
-  color:#0f377a !important;
+  color:#883e52 !important;
   background: none;
 }
 
@@ -35,11 +35,18 @@
 }
 
 #delivery_page{
-  background: url("../img/delivery_background.jpg");
+  background: url("../img/delivery.png");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+h3{
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 20px;
+
 }
 
 h2{
@@ -48,9 +55,7 @@ h2{
   font-size: 20px;
 }
 
-span{
-  color:#5F021F;
-}
+
 
 .home_page{
   text-align: center;
@@ -74,4 +79,25 @@ span{
   font-size: 16px;
   margin:4px 2px;
   border-radius: 8px;
+}
+
+#compute{
+  background-color: #883e52;
+  border:none;
+  color:white;
+  padding:30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:4px 2px;
+  border-radius: 8px;
+}
+
+.home_page span{
+  color:#5F021F;
+}
+
+span{
+  color:#404856;
 }

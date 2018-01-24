@@ -22,9 +22,9 @@
         <a class="navbar-brand" href="home.html">Convargo</a>
       </div>
       <ul class="nav navbar-nav">
+        <li><a href=home.html>Home</a>
         <li class="active"><a href="index.html">Delivery</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="#">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -32,23 +32,45 @@
   <div class="container">
     <h2>We need some informations to estimate the cost of your delivery</h2>
     <br>
-    <h3>Please fill the form <h3>
+    <h3>Please fill the form :<h3>
     <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>Trucker</h2>
     <div id="trucker">
       <input class="name" type="text" placeholder="Trucker name" />
+      <br>
+      <br>
       <input class="price-by-km" type="number" placeholder="Price by km" />
+      <br>
+      <br>
       <input class="price-by-cubic" type="number" placeholder="Price by m3" />
     </div>
+  </div>
+  <div class="col-sm-4">
+    <h2>Shipper</h2>
     <div id="shipper">
       <input class="name" type="text" placeholder="Shipper name" />
+      <br>
+      <br>
       <input class="distance" type="number" placeholder="Distance in km" />
+      <br>
+      <br>
       <input class="volume" type="number" placeholder="Volume in m3" />
+      <br>
+      <h4> Deductible option : </h4>
       <input class="option" type="checkbox" placeholder="Deductible option" />
     </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
-    <script src="convargo.js"></script>
-    <script src="index.js"></script>
+  </div>
+  <div class="col-sm-4">
+    <h2>Price</h2>
+    <div id="actors">
+    </div>
+  </div>
+  </div>
+  <button id="compute">Compute</button>
+  <script src="convargo.js"></script>
+  <script src="index.js"></script>
   </div>
 </body>
 

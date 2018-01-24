@@ -10,7 +10,7 @@
         <div class="actor">
           <span>${actor.who}</span>
           <span>${actor.type}</span>
-          <span>${actor.amount}</span>
+          <span> : ${actor.amount} &euro;</span>
         </div>
       `;
     }).join('');
@@ -23,7 +23,7 @@
 
   const button = document.querySelector('#compute');
 
-  button.addEventListener('click', function onClick () {
+  button.addEventListener('click', function onClick() {
     const trucker = CONVARGO.getTrucker();
     const distance = document.querySelector('.distance').value;
     const volume = document.querySelector('.volume').value;
